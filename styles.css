@@ -15,16 +15,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-height: 66px;
     margin-top: 16px;
     background-color: #ccc;
     padding: 5px;
     gap: 8px;
 }
 
-.main-image{
-    transition: .3s;
+.cat{
+    transition: .2s;
+    cursor: pointer;
 }
 
-.main-image:hover{
-    transform: scale(1.1);
+.cat:hover{
+border: 1px solid black;
 }
